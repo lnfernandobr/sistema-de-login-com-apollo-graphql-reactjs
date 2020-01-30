@@ -11,7 +11,8 @@
 O FrontEnd foi Desenvolvido  em ReactJs com client `Apollo` e linguagem de consulta
 `GraphlQl`, as consultas de criação de usuario, redefinição de senha, login de usuario e etc, 
 Estão todas definidas e sendo utilizadas no aplicativo. O "paradigma HOC" está sendo aplicado separando
-os componentes inteligentes em `containers` e combonentes burros em `views` 
+os componentes inteligentes em `containers` e combonentes burros em `views`. Também esta implementado 
+componente em todo aplicativo um sistema de avisos com snackbar 
 
  
 ****
@@ -26,4 +27,5 @@ os componentes inteligentes em `containers` e combonentes burros em `views`
    * `Prettier` e `eslint` - Code Style
    * `recompose` - Lib para uso de componentes de ordem superior e outras ferramentas uteis
    * `Material-UI` - Componentização com biblioteca 
+   * `Outros...`
     
