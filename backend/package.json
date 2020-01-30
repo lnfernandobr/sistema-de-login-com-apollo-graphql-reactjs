@@ -1,0 +1,43 @@
+{
+  "name": "api-sistema-de-login-com-apollo-graphql",
+  "version": "1.0.0",
+  "description": "API para realização de gereciamento de contas de usuarios - Básico ",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "build": "babel src -d lib",
+    "lint": "npx eslint src --fix"
+  },
+  "keywords": [
+    "node",
+    "apollo",
+    "graphql",
+    "mongodb"
+  ],
+  "author": {
+    "email": "lnfernandobr@gmail.com",
+    "name": "Fernando Lima",
+    "url": "github.com/lnfernandobr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "apollo-server": "^2.9.15",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "graphql": "^14.5.8",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.6",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.7.7",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "1.19.1"
+  }
+}
