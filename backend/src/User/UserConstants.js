@@ -1,5 +1,3 @@
-export const SEND_GRID_API_KEY =
-  "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";
 export const FORGET_PASSWORD_SUBJECT = "Redefinição de senha";
 export const FORGET_PASSWORD_SHIPPING_EMAIL = "rasenturbo@gmail.com";
 
