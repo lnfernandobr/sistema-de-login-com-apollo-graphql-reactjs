@@ -22,7 +22,7 @@
   "license": "MIT",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
-    "apollo-server": "^2.14.2",
+    "apollo-server": "^2.25.3",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "graphql": "^14.5.8",
